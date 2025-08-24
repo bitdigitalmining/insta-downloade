@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram Public Downloader</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Instagram Public Downloader</h1>
+    <p class="sub">Paste a public Instagram post/Reel URL you have rights to save.</p>
+    <form id="form">
+      <input id="url" type="url" placeholder="https://www.instagram.com/p/XXXXXXXXX/" required />
+      <button type="submit" id="go">Get Media</button>
+    </form>
+
+    <div id="status"></div>
+    <div id="results" class="grid"></div>
+
+    <footer>
+      <small>Use only for your own content or with permission. Respect Instagram's Terms and copyright.</small>
+    </footer>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
